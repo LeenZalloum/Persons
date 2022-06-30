@@ -1,0 +1,128 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: graysca;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* App Page */
+.App{
+  width: 70%;
+  background-color: whitesmoke;
+  margin: 50px auto;
+  border-radius: 5%;
+}
+
+
+
+/* Person List Page and Get Person*/
+
+.person, .getPerson{
+  text-align: start;
+  padding: 20px 40px 20px 40px;
+}
+.person a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #480ca8;
+}
+
+.person h2, .getPerson h2{
+  color: #f695cf;
+  font-size: 25px;;
+}
+
+.person-list{
+  border-bottom: 1px solid #ddd;
+  box-shadow: 10px;
+}
+
+.getPerson p{
+  font-size: 20px;
+  color: #480ca8;
+}
+
+
+/* Navbar Page */
+
+.navbar {
+  padding: 30px;
+  display: flex;
+  
+  border-bottom: 1px solid #c2b9b9;
+  
+  justify-content: center; 
+  
+}
+
+.navbar a{
+  color: #f695cf;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+ 
+  font-size: 20px;
+  font-weight: bold;
+  
+  
+}
+
+.navbar a:hover{
+  color: #480ca8;
+  
+}
+
+/* Add Person Page */
+
+
+.addPerson{
+  margin: auto;
+  max-width: 40%;
+  padding:20px 0 20px 0;
+  
+  
+}
+
+.addPerson label{
+  display: block;
+  font-size: 20px;
+  color:#f695cf;
+}
+
+.addPerson input, .addPerson textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  color: #480ca8;
+}
+ 
+
+.addPerson button{
+  display: block;
+  background-color: #94bbe9;
+  color: #480ca8;
+  border-radius: 20%;
+  border-style: none;
+  padding: 10px; 
+  margin:10px auto;
+}
+
+
+
+
+
+
+
