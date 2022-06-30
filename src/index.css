@@ -20,7 +20,8 @@ code {
   width: 70%;
   background-color: whitesmoke;
   margin: 50px auto;
-  border-radius: 5%;
+  border-radius: 25px;
+  
 }
 
 
@@ -58,28 +59,36 @@ code {
 .navbar {
   padding: 30px;
   display: flex;
-  
   border-bottom: 1px solid #c2b9b9;
-  
-  justify-content: center; 
-  
+  justify-content: space-between;
+}
+
+.links{
+ margin:auto 0 auto 0;
 }
 
 .navbar a{
+  
   color: #f695cf;
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
- 
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
   
   
 }
 
 .navbar a:hover{
   color: #480ca8;
+  font-size: 22px;
   
+}
+
+
+.navbar h2{
+  color:#f695cf;
+  font-size: 35px;
 }
 
 /* Add Person Page */
@@ -99,27 +108,48 @@ code {
   color:#f695cf;
 }
 
-.addPerson input, .addPerson textarea{
+.addPerson input{
   width: 100%;
-  padding: 6px 10px;
+  padding: 10px 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
   color: #480ca8;
+  border-radius:10px;
 }
- 
+
+.addPerson textarea{
+  width: 100%;
+  color: #480ca8;
+  resize: vertical;
+  border-radius:10px;
+  border: 1px solid #ddd;
+
+}
+ .addPerson textarea:focus{
+  
+ }
 
 .addPerson button{
-  display: block;
-  background-color: #94bbe9;
-  color: #480ca8;
-  border-radius: 20%;
-  border-style: none;
-  padding: 10px; 
-  margin:10px auto;
-}
+  color: rgb(255, 255, 255);
+   font-size: 21px;
+    line-height: 21px; 
+    padding: 12px; 
+    border-radius: 20px; 
+     font-weight: normal; 
+     text-decoration: none; 
+     font-style: normal; 
+     font-variant: normal;
+      background-image: linear-gradient(90deg,rgba(238,174,202,1) 3%,rgba(238,174,202,1) 20%, rgba(119,171,232,1) 100%); 
+      display: inline-block;
+      border: none;
+    }
 
+ .addPerson button:hover{
+
+    background: #3d7ec9; 
+ }
 
 
 
