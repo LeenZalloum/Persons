@@ -8,10 +8,9 @@ const PersonsList = (props) => {
             {persons.map((person,index)=>(
                 
                 <div className="person-list" key={person.id}>
-                    
-                    <h2>Person {person.id}</h2>
-                    
+                             
                     <Link to={`/getPerson/${person.id}`}>
+                    <h2>Person {person.id}</h2>
                         <p>First Name: {person.first_name}</p>
                         <p>Middle Name: {person.middle_name}</p>
                         <p>Last Name : {person.last_name}</p>
