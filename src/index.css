@@ -127,9 +127,7 @@ code {
   border: 1px solid #ddd;
 
 }
- .addPerson textarea:focus{
-  
- }
+
 
 .addPerson button{
   color: rgb(255, 255, 255);
