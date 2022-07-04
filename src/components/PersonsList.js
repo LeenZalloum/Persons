@@ -5,7 +5,7 @@ const PersonsList = (props) => {
     
     return (    
         <div className="person">
-            {persons.map((person,index)=>(
+            {persons.map((person)=>(
                 
                 <div className="person-list" key={person.id}>
                              

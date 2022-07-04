@@ -8,6 +8,7 @@ const AddPerson = () => {
     const [email, setEmail] = useState('');
     const [description, setDescription] = useState('');
     const [isPending, setIsPending] = useState(false);
+    
     const navigate  = useNavigate();
 
     const handleSubmit = (e) =>{
